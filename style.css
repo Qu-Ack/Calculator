@@ -18,7 +18,7 @@ body {
     color:white;
     border-radius:10px;
     padding:8px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .calculator {
@@ -54,6 +54,9 @@ body {
 
 
 }
+.buttons-one .plus {
+    font-size: 24px;
+}
 
 .plus:hover , .allClear:hover , .negative:hover ,.equals:hover {
     background:#ffffe5;
@@ -65,7 +68,7 @@ body {
 
 .one , .two , .three , .minus {
     flex:1;
-    font-size: 18px;
+    font-size: 24px;
     color:white;
     background: black;
     border-radius: 10px;
@@ -78,13 +81,13 @@ body {
     background:#ffffe5;
     cursor:pointer;
     color:black;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .four , .five , .six , .multiply {
     flex:1;
     background: black;
-    font-size: 18px;
+    font-size: 24px;
     min-height: 75px;
     transition:all 0.25s;
     color:white;
@@ -95,14 +98,14 @@ body {
     background:#ffffe5;
     cursor:pointer;
     color:black;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .seven , .eight , .nine , .divide {
     flex: 1;
     min-height: 75px;
     transition:all 0.25s;
-    font-size: 18px;
+    font-size: 24px;
     color:white;
     background: black;
     border-radius: 10px;
@@ -111,13 +114,13 @@ body {
     background:#ffffe5;
     cursor:pointer;
     color:black;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .zero {
     flex:1;
     background: black;
-    font-size: 18px;
+    font-size: 24px;
     min-height: 75px;
     transition:all 0.25s;
     color:white;
@@ -129,7 +132,7 @@ body {
     background:rgb(242, 118, 118);
     cursor:pointer;
     color:white;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .buttons-two {
