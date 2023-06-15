@@ -46,8 +46,11 @@ function operatorInput() {
                 numOne = '';
                 numTwo = '';
                 isOperatorClicked = false;
-          
+            } 
+            if (operator === "AC") {
+                location.reload();
             }
+            
             
         })
     })
